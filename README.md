@@ -251,6 +251,11 @@ css
 Version history
 ===============
 
+1.2.6
+-----
+
+- Included markdown continuelist addon
+
 1.2.5
 -----
 

@@ -1,3 +1,4 @@
+ashokgelal:codemirror@1.2.6
 base64@1.0.3
 blaze@2.1.2
 blaze-tools@1.0.3
@@ -14,7 +15,6 @@ minifiers@1.1.5
 minimongo@1.0.8
 observe-sequence@1.0.6
 ordered-dict@1.0.3
-perak:codemirror@1.2.4
 random@1.0.3
 reactive-var@1.0.5
 spacebars-compiler@1.0.6

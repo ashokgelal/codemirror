@@ -1,7 +1,8 @@
 Package.describe({
 	summary: "CodeMirror editor for Meteor >= 1.0",
-	version: "1.2.5",
-	git: "https://github.com/perak/codemirror.git"
+	version: "1.2.6",
+	git: "https://github.com/perak/codemirror.git",
+	name: "ashokgelal:codemirror"
 });
 
 // Before Meteor 0.9?
@@ -50,6 +51,9 @@ Package.onUse(function (api) {
 
 	// overlay: required by `gfm.js`
 	api.add_files('lib/codemirror/addon/mode/overlay.js', "client");
+
+	// markdown list continuation; nice complement for gfm
+	api.add_files('lib/codemirror/addon/edit/continuelist.js', "client");
 	
 	// modes
 	api.add_files('lib/codemirror/mode/apl/apl.js', "client");
